@@ -1,0 +1,22 @@
+group 'hackathon_ai_clairifai'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile "com.clarifai:clarifai-api-java:1.2.0"
+    compile "com.twitter:hbc-core:2.2.0"
+    compile "org.facebook4j:facebook4j-core:2.4.5"
+    //compile "com.restfb:restfb:1.28.0"
+    compile "commons-httpclient:commons-httpclient:3.1"
+
+
+
+}
